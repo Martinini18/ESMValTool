@@ -310,7 +310,7 @@ def _plot_ecs_regression(cfg, dataset_name, description, tas_cube, rtmt_cube):
         'plot_types': ['scatter'],
     })
 
-    return (netcdf_path, provenance_record)
+    return (reg, netcdf_path, provenance_record)
 
 
 def _save_evs_cube(tas_cube, rtmt_cube, reg, title, cfg):
