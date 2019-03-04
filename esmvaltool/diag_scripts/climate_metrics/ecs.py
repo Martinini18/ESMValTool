@@ -286,7 +286,7 @@ def _plot_ecs_regression(cfg, dataset_name, description, tas_cube, rtmt_cube):
             'set_xlabel': 'tas / ' + tas_cube.units.origin,
             'set_ylabel': 'rtmt / ' + rtmt_cube.units.origin,
             'set_xlim': [0.0, 8.0],
-            'set_ylim': [-2.0, 10.0],
+            'set_ylim': [-1.0, 8.0],
             'text': {
                 'args': [0.05, 0.9, text],
                 'kwargs': {
